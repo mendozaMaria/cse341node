@@ -1,0 +1,13 @@
+<%- include('includes/head.ejs')%>
+    <h1>Users</h1>
+    <% if(users.length > 0) { %>
+        <ul>
+            <!-- for each interation it gives you the user you are currently looking at -->
+            <% users.forEach((user) => { %>
+                <li><%= user.name %></li>
+            <% }) %>
+        </ul>
+    <% } else { %>
+        <h1>No Users Found!</h1>
+    <% } %>
+<%- include('includes/end.ejs')%>
