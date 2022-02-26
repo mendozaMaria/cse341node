@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "053517a0-14b8-4453-acf5-65d3a2c8b208",
+		"name": "Prove08",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/professional/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/professional/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"professional",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

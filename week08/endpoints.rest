@@ -1,0 +1,5 @@
+// GET = to retrieve a resource in this case http://localhost:8080/professional/
+GET http://localhost:8080/professional/
+
+###
+
